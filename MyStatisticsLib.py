@@ -2,7 +2,7 @@ from turtle import *
 from statistics import mode
 import math
 
-Screen().title("Baxter Grapher - Not branched")
+Screen().title("Baxter Grapher - Main Branch - alpha")
 
 t = Turtle()
 
@@ -500,9 +500,11 @@ class Aereogram:
 def DrawAerogram():
     #keep writing code here
     print("I really have no clue please forgive me")
+    print("LOL DONE AN ENTIRE CLASS!")
 
 def HistoGram(Name, Values, ValuesTexts, GraphOriginX = -400, GraphOriginY = -300, IndividualWidth = 100, IndividualHeight = 500, ColumnSpacing = 10, WantsBGBorder = False, WantsBorder = False, ColumnBackGround = "None", WantsIndexes = False, IndexColor = "#dddddd"):
     print("Maybe this can be built")
+    print("this might be built in future versions")
 
 def ClearScreen():
     t.reset()
@@ -510,6 +512,12 @@ def ClearScreen():
 
 def FinishedPrinting():
     done()
+    print("Thank you for using Baxter Grapher")
+
 
 print("Welcome to Baxter Grapher, if you encounter any issues, please take a look at the repo at my GitHub https://github.com/syumjoba")
+print("Maybe follow me on twitter and Instagram, @syumjoba")
+print()
 print("Help Modules NOT yet Written")
+print("____________________________")
+print("\n\n")
