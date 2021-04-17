@@ -409,7 +409,7 @@ class Aereogram:
             t.forward(self.Radius)
             t.left(90)
             t.circle(self.Radius, ProportionAngles[PrintingValue])
-            #t.left(90)
+            t.left(90)
             t.forward(self.Radius)
             t.end_fill()
 
