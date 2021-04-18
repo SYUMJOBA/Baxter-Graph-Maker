@@ -1,11 +1,10 @@
-from turtle import *
+import turtle
 from statistics import mode
 import math
-import matplotlib
 
-Screen().title("Baxter Grapher - Not branched")
+turtle.Screen().title("Baxter Grapher - Main - Original")
 
-t = Turtle()
+t = turtle.Turtle()
 
 
 SPEED = 0
@@ -490,11 +489,10 @@ class Aereogram:
             print("|" + Tabbing(self.ValueName[PrintingValue]) + "|" + Tabbing(str(PrintingValue)) + "|")
         
         print("|____________________|____________________|")
-        print("|Mean - - - - - - - -|" + Tabbing(self.Mean) + "|")
-        print("|Median value - - - -|" + Tabbing(self.Median) + "|")
-        print("|Mode - - - - - - - -|" + Tabbing(self.MostFrequentValue) + "|" + " !")
-        print("|Sum- - - - - - - - -|" + Tabbing(self.Sum) + "|")
-        print("|Sigma- - - - - - - -|" + Tabbing(CalculateSigma(self.NumericValues)) + "|")
+        print("|Mean - - - - - - - - " + Tabbing(self.Mean) + "|")
+        print("|Median value - - - - " + Tabbing(self.Median) + "|")
+        print("|Mode - - - - - - - - " + Tabbing(self.MostFrequentValue) + "|")
+        print("|Sum- - - - - - - - - " + Tabbing(self.Sum) + "|")
         print("|____________________|____________________|")
 
         print("\n\n")
@@ -511,7 +509,7 @@ def ClearScreen():
     SetTrutleSpeed(SPEED)
 
 def FinishedPrinting():
-    done()
+    turtle.done()
 
 print("Welcome to Baxter Grapher, if you encounter any issues, please take a look at the repo at my GitHub https://github.com/syumjoba")
 print("Help Modules NOT yet Written")
